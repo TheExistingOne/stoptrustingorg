@@ -42,7 +42,7 @@ Thanks for reading! Hopefully I've been able to give you a little bit of a bette
 
 ---
 
-[^1]: https://www.iana.org/
-[^2]: https://www.iana.org/domains/root/db
-[^3]: https://en.wikipedia.org/wiki/Sponsored_top-level_domain
-[^4]: https://lookup.icann.org/en
+[^1]: [https://www.iana.org/](https://www.iana.org/)
+[^2]: [https://www.iana.org/domains/root/db](https://www.iana.org/domains/root/db)
+[^3]: [https://en.wikipedia.org/wiki/Sponsored_top-level_domain](https://en.wikipedia.org/wiki/Sponsored_top-level_domain)
+[^4]: [https://lookup.icann.org/en](https://lookup.icann.org/en)
