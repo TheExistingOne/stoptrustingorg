@@ -1,0 +1,29 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "command": "bash",
+  "args": [
+      "-c"
+  ],
+  "tasks": [
+    {
+      "label": "serve",
+      "type": "shell",
+      "args": ["jekyll s"],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "deploy",
+      "type": "shell",
+      "args": ["read -p \"This will automatically stage, commit, and push all changes. Are you sure? \" -n 1 -r; echo; if [[ ! $REPLY =~ ^[Yy]$ ]]; then exit 1 &>/dev/null; fi; git add -A; git commit -m \"$(date +\"Autodeployed on %Y-%m-%d at %H:%M:%S\")\"; git push origin HEAD"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
